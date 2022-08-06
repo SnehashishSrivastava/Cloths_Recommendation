@@ -25,10 +25,6 @@ name=os.listdir('bottoms_resized_png')
 
 a=input("Enter the path of Image")
 
-try:
-    name.remove(a[20:])
-except Exception as e:
-    print(e)
 #name.insert(a,0)
 
 #Data Loading 
@@ -64,5 +60,6 @@ j=df[0].sort_values(ascending=False)[:11].index
 
 #printing output
 for i in j[0:]:
-    print("Suggestions Are: bottoms_resized_png/{}".format(name[i-1]))
+    if(i!=a[20:]):
+        print("Suggestions Are: bottoms_resized_png/{}".format(name[i]))
     
