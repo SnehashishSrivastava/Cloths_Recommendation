@@ -14,3 +14,7 @@ The Flow of proram is as follows :
 6. Vector is calculated
 7.Cosine Similarity is calculated
 8. Output image path are displayed
+
+
+
+Possible Changes that will result in better performance of our model is changing the vectorizing model and replacing it with cloth specific network that defferentiates between different clothing accecories in general the VGG16 default classes has not class like "pants" or "Skirts" or any other modern clothing.
