@@ -1,9 +1,4 @@
-# FlixStock_assesment
- The experementation and pocs are done in the Assignment_poc.ipynb
- only the Solution.py should be accepted as the final solution 
- The Final solution uses basic cosine similarity technique to finde items with similar vectors.
- The Vectorizarion is done using VGG16 Imagenet weight models
- 
+
  
 The Flow of proram is as follows :
 1. The Model(VGG16) is loaded and last layer is removed 
